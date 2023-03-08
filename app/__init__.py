@@ -1,7 +1,7 @@
-from app.routes import home, dashboard
 from flask import Flask
 from app.db import init_db
 from app.utils import filters
+from app.routes import home, dashboard
 
 def create_app(test_config=None):
   # set up app config
